@@ -121,7 +121,7 @@
   const setHighlight = () => {
     if (isStrong && highlightElRef) {
       const buttonsEl = highlightElRef.parentElement;
-      const buttonsLength = buttonsEl.querySelectorAll(":scope > button").length - 1;
+      const buttonsLength = buttonsEl.querySelectorAll(":scope > button").length;
       const activeIndex = [...buttonsEl.children].indexOf(
         buttonsEl.querySelector('.k-segmented-strong-button-active')
       );
