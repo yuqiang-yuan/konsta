@@ -1,8 +1,8 @@
 {
-  "name": "konsta",
+  "name": "@mosoink/konsta",
   "description": "Mobile UI components made with Tailwind CSS",
-  "version": "5.0.9",
-  "private": true,
+  "version": "5.0.10",
+  "private": false,
   "license": "MIT",
   "author": "Vladimir Kharlampidi",
   "type": "module",
